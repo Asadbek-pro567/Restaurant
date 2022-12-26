@@ -1,0 +1,28 @@
+
+
+.container{
+    max-width: 1440px;
+    background-color: #0C0C0C;
+    margin: 0 auto;
+    padding: 30px 50px;
+    color: #fff;
+    .logo__inner{
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 200px;
+            height: 60px;
+        }
+        .logo__ul{
+            display: flex;
+            list-style-type: none;
+            li{
+                margin-right: 40px;
+            }
+            .logo__ul__li1{
+                border-right: 1px solid #fff;
+                padding-right: 40px;
+            }
+        }
+    }
+}
