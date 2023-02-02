@@ -39,7 +39,8 @@
             height: 40px;
             background-color: #DCCA87;
             color: #0C0B08;
-            text-align: center;
+                border: none;
+                text-align: center;
         }
     }
 
@@ -47,5 +48,259 @@
     .hero__img{
         width: 450px;
         margin-left: 50px;
+    }
+}
+
+
+.main{
+    background: url(../../../image/element.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 5.5%;
+}
+.main__inner{
+    width: 100%;
+    background-image: url(../../../image/BG.jpg);
+    height: 650px;
+    padding-top: 100px;
+    .container{
+        width: 1440px;
+        margin: 0 auto;
+        .main__list{
+            display: flex;
+            
+            background-image: url(../../../image/G.svg);
+            background-repeat: no-repeat;
+            background-position: 40%;
+        }
+        .inner__left{
+            text-align: end;
+            padding-right: 80px;
+            h3{
+                font-size: 56px;
+                color: #DCCA87;
+                margin-bottom: 0;
+            }
+            img{
+                transform: rotate(180deg);
+                width: 60px;
+            }
+            p{
+                width: 500px;
+                font-size: 16px;
+                color: #AAAAAA;
+            }
+            button{
+                width: 150px;
+                height: 40px;
+                background-color: #DCCA87;
+                border: none;
+                color: #0C0C0C  ;
+            }
+        }
+        .pichoq{
+            height: 450px;
+        }
+        .inner__right{
+            text-align: start;
+            padding-left: 80px;
+            h3{
+                font-size: 56px;
+                color: #DCCA87;
+                margin-bottom: 0;
+            }
+            img{
+                width: 60px;
+            }
+            p{
+                width: 500px;
+                font-size: 16px;
+                color: #AAAAAA;
+            }
+            button{
+                width: 150px;
+                height: 40px;
+                background-color: #DCCA87;
+                color: #0C0C0C  ;
+                border: none;
+            }
+        }
+    }
+}
+
+.main__table{
+    position: relative;
+    &::after{
+        content: url(../../../image/delight.png);
+        position: absolute;
+        right: 50px;
+        top: -50px;
+    }
+    .container{
+        .table__inner{
+            border: 1px solid rgba(220, 202, 135, 0.2);
+            background: #0C0C0C;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            h6{
+                margin-top: 30px;
+                margin-bottom: 10px;
+                color: #DCCA87;
+            }
+            img{
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            h2{
+                font-size: 50px;
+                margin-top: 1px;
+                color: #DCCA87;
+                margin-bottom: 50px;
+            }
+            div{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                margin-bottom: 30px;
+                select{
+                    width: 30%;
+                    background-color: transparent;
+                    border: 1px solid rgba(220, 202, 135, 0.2);
+                    color: #DCCA87;
+                    outline: none;
+                    height: 50px;
+                    option{
+                        background-color: #0C0C0C;
+                        font-size: 20px;
+                        color: #DCCA87;
+                        border: none;
+                        &:hover{
+                            background-color: #DCCA87;
+                            color: #0C0B08;
+                        }
+                    }
+                }
+                div{
+                    width: 30%;
+                    background-color: transparent;
+                    border: 1px solid rgba(220, 202, 135, 0.2);
+                    color: #DCCA87;
+                    outline: none;
+                    height: 50px;
+                    margin-top: 0;
+                    align-items: center;
+                    h4{
+                        color: #DCCA87;
+                    }
+                }
+            }
+            button{
+                width: 300px;
+                height: 50px;
+                background-color: #DCCA87;
+                color: #0C0C0C;
+                border: none;
+                margin-bottom: 60px;
+            }
+        }
+    }
+}
+
+.main__menu{
+    background: url(../../../image/viski.jpg);
+    background-size: 100%;
+    background-position: 100%;
+    height: 900px;
+    .container{
+        position: relative;
+        .menu__inner{
+            &::before{
+                content: url(../../../image/delight.png);
+                position: absolute;
+                top: -40px;
+                left: 100px;
+            }
+            h2{
+                font-size: 70px;
+                margin-top: 160px;
+                &:hover{
+                    text-decoration: underline;
+                    
+                }
+            }
+        }
+    }
+}
+
+.main__today{
+    .container{
+        .today__inner{
+            margin-top: 100px;
+            text-align: center;
+            margin-bottom: 150px;
+            h6{
+                font-size: 18px;
+            }
+            h2{
+                font-size: 50px;
+                color: #DCCA87;
+            }
+            div{
+                display: flex;
+                div{
+                    display: block;
+                    width: 412px;
+                    h3{
+                        font-size: 45px;
+                    }
+                    div{
+                        display: flex;
+                        align-items: center;
+                        height: 30px;
+                        justify-content: space-between;
+                        h5{
+                            font-size: 23px;
+                            color: #DCCA87;
+                        }
+                        h6{
+                            font-size: 23px;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                width: 300%;
+                                padding: 1px;
+                                top: 15px;
+                                background-color: #FAFAFA;
+                                position: absolute;
+                                left: -150px;
+                            }
+                        }
+                    }
+                    p{
+                        font-size: 16px;
+                        color: #AAAAAA;
+                        text-align: start;
+                        margin-top: 10px;
+                        margin-bottom: 50px;
+                    }
+                }
+                img{
+                    width: 444px;
+                    height: 659px;
+                    object-fit: cover;
+                    margin: 0 20px;
+                }
+            }
+
+            button{
+                width: 300px;
+                height: 50px;
+                background-color: #DCCA87;
+                color: #0C0C0C;
+                font-size: 20px;
+                margin-top: 50px;
+            }
+        }
     }
 }
