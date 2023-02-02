@@ -304,3 +304,61 @@
         }
     }
 }
+
+.main_kareys{
+    color: #FAFAFA;
+    background-image: url(../../../image/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    .container{
+        position: relative;
+        &::after{
+            content: url(../../../image/qayci.png);
+            position: absolute;
+            right: 0px;
+            bottom: -200px;
+        }
+    }
+    .main_kabox{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .main_katext{
+            margin-left: 80px;
+            h6{
+                font-size: 23px;
+                margin-bottom: 15px;
+            }
+            h2{
+                margin-top: 0;
+                font-size: 64px;
+                color: #DCCA87;
+                
+            }
+            p{
+                span{
+                    width: 47px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+                font-size: 16px;
+            }
+            h5{
+                font-size: 32px;
+                color: #DCCA87;
+                margin-bottom: 0;
+            }
+            h6{
+                color: #AAAAAA;
+                margin-top: 0;
+                font-size: 16px;
+            }
+            .kevin{
+                font-family: 'Great Vibes';
+                color: #AAAAAA;
+                margin-top: 70px;
+            }
+        }
+    }
+}

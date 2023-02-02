@@ -4,6 +4,9 @@ import Qowiq from '../../../image/qowiq.svg'
 import Hero from '../../../image/Hero.png'
 import Pichoq from '../../../image/pichoq.png'
 import Kokteyl from '../../../image/kokteyl.png'
+import Kareys from '../../../image/kareys1.png'
+import Qowtir from "../../../image/qow.svg"
+
 
 function Header() {
   const dataData = new Date()
@@ -169,6 +172,26 @@ function Header() {
                 </div>
               </div>
               <button>View More</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div className="main_kareys">
+          <div className='container'>
+            <div className="main_kabox">
+              <div className="main_ka_img">
+                <img src={Kareys} alt="" />
+              </div>
+              <div className="main_katext">
+                <h6>Chef’s Word</h6>
+                <img src={Qowiq} alt="" />
+                <h2>What we believe in</h2>
+                <p><span><img src={Qowtir} alt="" /></span>auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.</p>
+                <h5>Kevin Luo</h5>
+                <h6>Chef & Founder</h6>
+                <h2 className='kevin'>Kevin Luo</h2>
+              </div>
             </div>
           </div>
         </div>
