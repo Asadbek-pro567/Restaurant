@@ -6,6 +6,17 @@ import Pichoq from '../../../image/pichoq.png'
 import Kokteyl from '../../../image/kokteyl.png'
 import Kareys from '../../../image/kareys1.png'
 import Qowtir from "../../../image/qow.svg"
+import Odam1 from '../../../image/odam1.png'
+import Odam2 from '../../../image/odam2.png'
+import Odam3 from '../../../image/odam3.png'
+import Odam4 from '../../../image/odam4.png'
+import Video from '../../../image/Video.png'
+import Bib1 from '../../../image/bib1.png'
+import Bib2 from '../../../image/bib2.png'
+import Bib3 from '../../../image/bib3.png'
+import Bib4 from '../../../image/bib4.png'
+import Ovqat from '../../../image/ovqat.png'
+import G from '../../../image/G.png'
 
 
 function Header() {
@@ -191,6 +202,117 @@ function Header() {
                 <h5>Kevin Luo</h5>
                 <h6>Chef & Founder</h6>
                 <h2 className='kevin'>Kevin Luo</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="customers">
+          <div className="container">
+            <div className="customers__inner">
+              <h4>Testimony</h4>
+              <img src={Qowiq} alt="" />
+              <h2>Happy customers</h2>
+              <div className='happy__list'>
+                <div className='happy__item'>
+                  <div className='odam1'>
+                    <img src={Odam1} alt="" />
+                    <img src={Qowtir} alt="" />
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                    <h3>Wade Warren</h3>
+                    <h5>Sommelier</h5>
+                  </div>
+                </div>
+                <div className='happy__item'>
+                  <div className='odam1'>
+                    <img src={Odam2} alt="" />
+                    <img src={Qowtir} alt="" />
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                    <h3>Jane Cooper</h3>
+                    <h5>Chef</h5>
+                  </div>
+                </div>
+                <div className='happy__item'>
+                  <div className='odam1'>
+                    <img src={Odam3} alt="" />
+                    <img src={Qowtir} alt="" />
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                    <h3>Robert Fox</h3>
+                    <h5>Chef</h5>
+                  </div>
+                </div>
+                <div className='happy__item'>
+                  <div className='odam1'>
+                    <img src={Odam4} alt="" />
+                    <img src={Qowtir} alt="" />
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                    <h3>Brooklyn Simmons</h3>
+                    <h5>Caterer</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="video">
+          <div className="container">
+            <div>
+              <img src={Video} alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div className="laurels">
+          <div className="container">
+            <div className="laurels__inner">
+              <div>
+                <div className='our'>
+                  <h4>Awards & recognition</h4>
+                  <img src={Qowiq} alt="" />
+                  <h2>Our Laurels</h2>
+                </div>
+                <ul>
+                  <li>
+                    <img src={Bib1} alt="" />
+                    <span>
+                      <h6>Bib Gourmond</h6>
+                      <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    </span>
+                  </li>
+                  <li>
+                    <img src={Bib2} alt="" />
+                    <span>
+                      <h6>Rising Star</h6>
+                      <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    </span>
+                  </li>
+                  <li>
+                    <img src={Bib3} alt="" />
+                    <span>
+                      <h6>AA Hospitality </h6>
+                      <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    </span>
+                  </li>
+                  <li>
+                    <img src={Bib4} alt="" />
+                    <span>
+                      <h6>Outstanding Chef</h6>
+                      <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className='ovqa'>
+                <img src={Ovqat} alt=""  className='ovqat'/>
               </div>
             </div>
           </div>

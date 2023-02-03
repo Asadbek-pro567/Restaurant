@@ -362,3 +362,136 @@
         }
     }
 }
+
+.customers{
+    .container{
+        .customers__inner{
+            text-align: center;
+            h2{
+                color: #DCCA87;
+                font-size: 64px;
+                margin-top: 0;
+            }
+            .happy__list{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .happy__item{
+                    text-align: start;
+                    width: 45%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-bottom: 80px;
+                    .odam1{
+                        margin-right: 20px;
+                        position: relative;
+                        img{
+                            &:nth-child(2){
+                                position: absolute;
+                                bottom: -10px;
+                                right: -25px;
+                            }
+                        }
+                    }
+                    div{
+                        p{
+                            color: #AAAAAA;
+                        }
+                        h3{
+                            color: #DCCA87;
+                            margin-top: 16px;
+                            margin-bottom: 4px;
+                        }
+                        h5{
+                            color: #FAFAFA;
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.video{
+    .container{
+        div{
+            position: relative;
+            &::before{
+                content: url(../../../image/qayci.png);
+                position: absolute;
+                top: 100px;
+                left: 100px;
+            }
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+.laurels{
+    background-image: url(../../../image/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+        .laurels__inner{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .ovqa{
+                position: relative;
+                &::before{
+                    content: url(../../../image/G.png);
+                    position: absolute;
+                    bottom: 100px;
+                    left: -80px;
+                }
+                .ovqat{
+                    margin: 100px 0;
+                }
+            }
+            div{
+                h4{
+                    font-size: 16px;
+                    margin-bottom: 0;
+                }
+                h2{
+                    margin-top: 10px;
+                    color: #DCCA87;
+                    font-size: 32px;
+                }
+                ul{
+                    list-style-type: none;
+                    padding-left: 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    li{
+                        width: 50%;
+                        display: flex;
+                        align-items: center;
+                        img{
+                            margin-top: 30px;
+                            object-fit: contain;
+                        }
+                        span{
+                            margin-left: 20px;
+                            h6{
+                                font-size: 22px;
+                                color: #DCCA87;
+                                margin-bottom: 0;
+                            }
+                            p{
+                                margin-top: 0;
+                                width: 85%;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
