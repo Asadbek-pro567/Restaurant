@@ -17,6 +17,11 @@
             list-style-type: none;
             li{
                 margin-right: 40px;
+                cursor: pointer;
+                transition: 0.2s ease-in-out;
+                &:hover{
+                    color: #DCCA87;
+                }
             }
             .logo__ul__li1{
                 border-right: 1px solid #fff;
