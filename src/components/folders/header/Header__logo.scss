@@ -27,12 +27,12 @@
         .logo__ul {
             display: flex;
             list-style-type: none;
-
+            color: #fff;
             li {
                 margin-right: 40px;
                 cursor: pointer;
                 transition: 0.2s ease-in-out;
-
+                color: #fff;
                 &:hover {
                     color: #DCCA87;
                 }
