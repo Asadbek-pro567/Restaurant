@@ -404,32 +404,32 @@ function Header() {
                 </li>
                 <li>
                   <ul ref={sliderWrap}>
-                    <a href="https://instagram.com/laveranda">
+                    <a href="https://instagram.com/la_veranda_andijan">
                       <li>
                         <img src={One} alt="" />
                       </li>
                     </a>
-                    <a href="https://instagram.com/laveranda">
+                    <a href="https://instagram.com/la_veranda_andijan">
                       <li>
                         <img src={Three} alt="" />
                       </li>
                     </a>
-                    <a href="https://instagram.com/laveranda">
+                    <a href="https://instagram.com/la_veranda_andijan">
                       <li>
                         <img src={Two} alt="" />
                       </li>
                     </a>
-                    <a href="https://instagram.com/laveranda">
+                    <a href="https://instagram.com/la_veranda_andijan">
                       <li>
                         <img src={One} alt="" />
                       </li>
                     </a>
-                    <a href="https://instagram.com/laveranda">
+                    <a href="https://instagram.com/la_veranda_andijan">
                       <li>
                         <img src={Two} alt="" />
                       </li>
                     </a>
-                    <a href="https://instagram.com/laveranda">
+                    <a href="https://instagram.com/la_veranda_andijan">
                       <li>
                         <img src={Three} alt="" />
                       </li>
@@ -484,7 +484,7 @@ function Header() {
                   <h4>"The best way to find yourself is to lose yourself in the service of others.”</h4>
                   <img src={Qowiq} alt="" />
                   <span>
-                    <a href="#">
+                    <a href="https://instagram.com/la_veranda_andijan">
                       <i class="bi bi-instagram"></i>
                     </a>
                     <a href="#">
