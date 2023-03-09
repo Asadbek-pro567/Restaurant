@@ -47,10 +47,11 @@ function Header() {
     arr.push(e.target.elements.email.value.split(''))
   }
 
+
   return (
     <>
       <div className='container'>
-        <div className="header">
+        <div className="header" id='home'>
           <div className='header__inner'>
             <span className='header__span'>
               <a href="#bar">
@@ -138,7 +139,7 @@ function Header() {
               <h6>Menu that fits you palatte</h6>
               <img src={Qowiq} alt="" />
               <h2>Today’s Special</h2>
-              <div>
+              <div className='divch'>
                 <div>
                   <h3>Wine & Beer</h3>
                   <div>
@@ -343,7 +344,7 @@ function Header() {
 
         <div className="blogs" id='gericht'>
           <div className="container">
-            <div className="blogs__inner">
+            <div className="blogs__inner" id='blog'>
               <h4>Blogs</h4>
               <img src={Qowiq} alt="" />
               <h2>Gerícht updates</h2>
@@ -403,24 +404,36 @@ function Header() {
                 </li>
                 <li>
                   <ul ref={sliderWrap}>
-                    <li>
-                      <img src={One} alt="" />
-                    </li>
-                    <li>
-                      <img src={Three} alt="" />
-                    </li>
-                    <li>
-                      <img src={Two} alt="" />
-                    </li>
-                    <li>
-                      <img src={One} alt="" />
-                    </li>
-                    <li>
-                      <img src={Two} alt="" />
-                    </li>
-                    <li>
-                      <img src={Three} alt="" />
-                    </li>
+                    <a href="https://instagram.com/laveranda">
+                      <li>
+                        <img src={One} alt="" />
+                      </li>
+                    </a>
+                    <a href="https://instagram.com/laveranda">
+                      <li>
+                        <img src={Three} alt="" />
+                      </li>
+                    </a>
+                    <a href="https://instagram.com/laveranda">
+                      <li>
+                        <img src={Two} alt="" />
+                      </li>
+                    </a>
+                    <a href="https://instagram.com/laveranda">
+                      <li>
+                        <img src={One} alt="" />
+                      </li>
+                    </a>
+                    <a href="https://instagram.com/laveranda">
+                      <li>
+                        <img src={Two} alt="" />
+                      </li>
+                    </a>
+                    <a href="https://instagram.com/laveranda">
+                      <li>
+                        <img src={Three} alt="" />
+                      </li>
+                    </a>
                   </ul>
                 </li>
                 <b>
@@ -451,7 +464,7 @@ function Header() {
           </div>
         </div>
 
-        <div className="footer">
+        <div className="footer" id='contact'>
           <div className="container">
             <div className="footer__inner">
               <ul>
@@ -466,20 +479,20 @@ function Header() {
                 </li>
                 <li>
                   <Link to='/'>
-                    <h2 onClick={()=>window.scrollTo({top: 0})}>Gerícht</h2>
+                    <h2 onClick={() => window.scrollTo({ top: 0 })}>Gerícht</h2>
                   </Link>
                   <h4>"The best way to find yourself is to lose yourself in the service of others.”</h4>
                   <img src={Qowiq} alt="" />
                   <span>
-                  <a href="#">
-                    <i class="bi bi-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i class="bi bi-facebook"></i>
-                  </a>
-                  <a href="#">
-                    <i class="bi bi-twitter"></i>
-                  </a>
+                    <a href="#">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#">
+                      <i class="bi bi-twitter"></i>
+                    </a>
                   </span>
                 </li>
                 <li>
